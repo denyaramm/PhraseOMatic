@@ -15,5 +15,8 @@ public class PhraseOMatic {
         int rand3 = (int) (Math.random() * threeLenght);
         String phrase = wordListOne [rand1] + "" + wordListTwo [rand2] + "" + wordListThree [rand3];
         System.out.println("Все, что нам нужно, - это "+phrase);
+
+        ClassniyClass classniy = new ClassniyClass();
+        classniy.AgeCount(34);
     }
 }
